@@ -1,0 +1,52 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+October 06, 2024 - 22:44:22
+Django version 4.2.11, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+[06/Oct/2024 22:44:28] "GET /todos/ HTTP/1.1" 200 3515
+[06/Oct/2024 22:44:31] "POST /todos/3/update HTTP/1.1" 302 0
+[06/Oct/2024 22:44:31] "GET /todos/ HTTP/1.1" 200 3552
+[06/Oct/2024 22:44:32] "POST /todos/2/update HTTP/1.1" 302 0
+[06/Oct/2024 22:44:33] "GET /todos/ HTTP/1.1" 200 3589
+[06/Oct/2024 22:44:34] "GET /todos/3/delete HTTP/1.1" 302 0
+[06/Oct/2024 22:44:35] "GET /todos/ HTTP/1.1" 200 2957
+[06/Oct/2024 22:44:36] "GET /todos/2/delete HTTP/1.1" 302 0
+[06/Oct/2024 22:44:36] "GET /todos/ HTTP/1.1" 200 2328
+[06/Oct/2024 22:44:43] "POST /todos/add/ HTTP/1.1" 302 0
+[06/Oct/2024 22:44:44] "GET /todos/ HTTP/1.1" 200 2912
+[06/Oct/2024 22:44:46] "POST /todos/22/update HTTP/1.1" 302 0
+[06/Oct/2024 22:44:47] "GET /todos/ HTTP/1.1" 200 2949
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+October 06, 2024 - 22:45:35
+Django version 4.2.11, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+[06/Oct/2024 22:45:42] "GET /todos/ HTTP/1.1" 200 2949
+[06/Oct/2024 22:45:47] "POST /todos/add/ HTTP/1.1" 302 0
+[06/Oct/2024 22:45:48] "GET /todos/ HTTP/1.1" 200 3527
+[06/Oct/2024 22:45:51] "POST /todos/23/update HTTP/1.1" 302 0
+[06/Oct/2024 22:45:52] "GET /todos/ HTTP/1.1" 200 3564
+[06/Oct/2024 22:45:53] "GET /todos/23/delete HTTP/1.1" 302 0
+[06/Oct/2024 22:45:53] "GET /todos/ HTTP/1.1" 200 2949
+[06/Oct/2024 22:45:54] "GET /todos/22/delete HTTP/1.1" 302 0
+[06/Oct/2024 22:45:54] "GET /todos/ HTTP/1.1" 200 2328
